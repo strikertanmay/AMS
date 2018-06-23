@@ -1246,8 +1246,8 @@ header .row {
  * ------------------------------------------------------------------- */
 header .header-logo {
   position: absolute;
-  left: 32px;
-  top: 42px;
+  left: 22px;
+  top: 12px;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
@@ -1260,10 +1260,10 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 57px;
-  height: 27px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 57px 27px;
+  width: 184px;
+  height: 94px;
+  background: url("../images/logoams.png") no-repeat center;
+  background-size: 184px 94px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1509,7 +1509,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/artist-camera-dslr-22185.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1557,7 +1557,7 @@ header .header-logo a {
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
-  font-size: 9rem;
+  font-size: 7rem;
   line-height: 1.133;
   color: #FFFFFF;
 }
@@ -1718,6 +1718,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 @media only screen and (max-width: 600px) {
   #home {
+    background-position: -375px 0px;
     min-height: 702px;
   }
 
