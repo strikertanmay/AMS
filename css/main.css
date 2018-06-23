@@ -2896,22 +2896,22 @@ footer h4.h05::after {
 
 /* footer bottom
  * --------------------------------- */
-.footer-bottom {
+.footer-bottomm{
   margin-top: 3rem;
   text-align: center;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.6rem;
 }
-.footer-bottom .copyright span {
+.footer-bottomm .rights span {
   display: inline-block;
 }
-.footer-bottom .copyright span::after {
+.footer-bottomm .rights span::after {
   content: "|";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
   color: rgba(255, 255, 255, 0.1);
 }
-.footer-bottom .copyright span:last-child::after {
+.footer-bottomm .rights span:last-child::after {
   display: none;
 }
 
@@ -2984,13 +2984,13 @@ footer h4.h05::after {
   }
 }
 @media only screen and (max-width: 600px) {
-  .footer-bottom {
+  .footer-bottomm{
     padding-bottom: .6rem;
   }
-  .footer-bottom .copyright span {
+  .footer-bottomm .rights span {
     display: block;
   }
-  .footer-bottom .copyright span::after {
+  .footer-bottomm .rights span::after {
     display: none;
   }
 }
