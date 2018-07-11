@@ -187,6 +187,15 @@
 
   /* Smooth Scrolling
 	* ------------------------------------------------------ */
+	$(".smoothScroll").click(function () {
+		$("team.html").trigger("click");
+	});
+	
+	$(".smoothScroll").click(function () {
+		$("events.html").trigger("click");
+	});
+	
+	
 	var ssSmoothScroll = function() {
 
 		$('.smoothscroll').on('click', function (e) {
