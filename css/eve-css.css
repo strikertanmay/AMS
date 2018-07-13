@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+﻿  @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
@@ -3698,7 +3698,6 @@
 			display: inline-block;
 			padding: 0 0.75em;
 			color: inherit;
-			border: 2px solid white;
 			text-decoration: none;
 			color: #FFF;
 			margin-right:5px;
@@ -3752,25 +3751,49 @@
 /* Footer */
 
 	#footer {
-		padding: 4rem 0 2rem 0 ;
+		padding: 3rem 0 2rem 0 ;
 		background: #000;
-		text-align: center;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
 	}
 
 		#footer .copyright {
-			color: #bbb;
-			font-size: 0.9rem;
+			color: white;
+			font-size: 1rem;
 			margin: 0 0 2rem 0;
 			padding: 0;
-			text-align: center;
-		}
+            text-align: center;
+            display: inline-block;
+        }
+        .copyright span::after{
+            content: "|";
+            display: inline-block;
+            padding: 0 1rem 0 1.2rem;
+            color: white;   
+        }
+        .copyright span:last-child::after {
+            display: none;
+        }
 
 		@media screen and (max-width: 736px) {
 
 			#footer {
 				padding: 3rem 0 1rem 0 ;
 			}
+			#footer .copyright{
+			    font-size: 0.9rem;
+			}
 
+		}
+		
+		#go-top
+		{
+		    position:fixed;
+		    bottom:5px;
+		    right:5px;
+		    z-index:1;
+		    opacity:0.9;
 		}
 /*Details */
     span
