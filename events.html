@@ -5,6 +5,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/eve-css.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	</head>
 	<body>
 
@@ -267,8 +271,22 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="copyright">
-					&copy; Thunderbolt | AMS. All rights reserved.
-				</div>
+                    <span>All Rights Reserved</span>
+                    <span>Design with <i class="fa fa-heart" style="color: red"></i> by team AMS</span>
+                </div>
+				<div id="go-top">
+		            <a class="smoothscroll" title="Back to Top" href="#top">
+		   	            <img src="images/up.png">
+		            </a>
+		        </div>
 			</footer>
+			<script type="text/javascript"></script>
+			<script>
+                $("a[href='#top']").click(function() {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+                });
+            </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</body>
 </html>

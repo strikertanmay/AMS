@@ -27,7 +27,6 @@
       </div>
       <a href="index.html">Home</a>
     </header>
-
 <section id="team" class="text-center section">
   <div id="dibba" class="container">
 
@@ -771,10 +770,21 @@
     <span>All Rights Reserved</span>
     <span>Design with <i class="fa fa-heart" style="color: red"></i> by team AMS</span>
   </div>
+  <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top">
+		   	<img src="images/up.png">
+		   </a>
+		</div>
 </footer>
 
-<script type="text/javascript">
-
+<script type="text/javascript"></script>
+<script>
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </body>
 </html>

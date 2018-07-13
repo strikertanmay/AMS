@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
@@ -91,7 +91,6 @@
 			display: inline-block;
 			padding: 0 0.75em;
 			color: inherit;
-			border: 2px solid white;
 			text-decoration: none;
 			color: #FFF;
 			margin-right:5px;
@@ -326,4 +325,13 @@ color: #fff;
 				padding: 3rem 0 1rem 0 ;
 			}
 
+		}
+		
+		#go-top
+		{
+		    position:fixed;
+		    bottom:5px;
+		    right:5px;
+		    z-index:1;
+		    opacity:0.9;
 		}
