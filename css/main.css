@@ -2501,6 +2501,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #clients .owl-carousel .owl-dots .owl-dot:hover span {
   background-color: #000000;
 }
+#i1{
+      max-width: 60%; 
+}
 
 
 /* ===================================================================
