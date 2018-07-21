@@ -111,11 +111,11 @@
 	    	responsiveClass:true,
 	    	responsive: {
 	         0:{
-	            items:2,
+	            items:4,
 	            margin: 20
 	         },
 	         400:{
-	            items:3,
+	            items:4,
 	            margin: 30
 	         },
 	         600:{
@@ -123,7 +123,7 @@
 	            margin: 40
 	         },
 	         1000:{
-	            items:6            
+	            items:4            
 	         }
 	    	}
 		});
@@ -352,6 +352,7 @@
 		});
    };	
 
+   
 
   /* AjaxChimp
 	* ------------------------------------------------------ */
