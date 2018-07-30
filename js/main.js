@@ -111,19 +111,19 @@
 	    	responsiveClass:true,
 	    	responsive: {
 	         0:{
-	            items:4,
+	            items:5,
 	            margin: 20
 	         },
 	         400:{
-	            items:4,
+	            items:5,
 	            margin: 30
 	         },
 	         600:{
-	            items:4,
+	            items:5,
 	            margin: 40
 	         },
 	         1000:{
-	            items:4            
+	            items:5            
 	         }
 	    	}
 		});
