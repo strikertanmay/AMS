@@ -1,7 +1,7 @@
 ﻿<?php
 global $error;
 // Replace this with your own email address
-$siteOwnersEmail = 'tanmaymittal0@gmail.com';
+$siteOwnersEmail = 'ams.society@iiita.ac.in';
 
 
 if($_POST) {
